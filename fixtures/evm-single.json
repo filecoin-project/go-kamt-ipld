@@ -1,0 +1,21 @@
+{
+  "name": "evm-single",
+  "source": "fvm_ipld_kamt 0.4.6 (crates.io)",
+  "config": {
+    "bitWidth": 5,
+    "minDataDepth": 0,
+    "maxArrayWidth": 1,
+    "keyLength": 32
+  },
+  "ops": [
+    {
+      "op": "set",
+      "key": "0000000000000000000000000000000000000000000000000000000000000001",
+      "value": 42
+    }
+  ],
+  "root": "bafy2bzacedfqf47yqz5zgen7jjubzhqekzhimxoptsnr2p3vdid2pqiazr6z4",
+  "blocks": {
+    "bafy2bzacedfqf47yqz5zgen7jjubzhqekzhimxoptsnr2p3vdid2pqiazr6z4": "82410181a1617681824101182a"
+  }
+}

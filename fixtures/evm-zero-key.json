@@ -1,0 +1,27 @@
+{
+  "name": "evm-zero-key",
+  "source": "fvm_ipld_kamt 0.4.6 (crates.io)",
+  "config": {
+    "bitWidth": 5,
+    "minDataDepth": 0,
+    "maxArrayWidth": 1,
+    "keyLength": 32
+  },
+  "ops": [
+    {
+      "op": "set",
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "value": 1
+    },
+    {
+      "op": "set",
+      "key": "0000000000000000000000000000000000000000000000000000000000000001",
+      "value": 2
+    }
+  ],
+  "root": "bafy2bzacecifswygv5tlmclpneyqj6xi4k6ypysd6uqchnmvt5vi2rassmiug",
+  "blocks": {
+    "bafy2bzacecifswygv5tlmclpneyqj6xi4k6ypysd6uqchnmvt5vi2rassmiug": "82410181a1616c83d82a5827000171a0e40220aa97aa3ae1e106b0ec6f6606bc497808a70f8ab932cbfd65b958faae4b7109e718fa58200000000000000000000000000000000000000000000000000000000000000000",
+    "bafy2bzacecvjpkr24hqqnmhmn5tanpcjpaekod4kxezmx7lfxfmpvlsloee6o": "82410382a1617681824001a161768182410102"
+  }
+}

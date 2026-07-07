@@ -1,0 +1,27 @@
+{
+  "name": "evm-deep-split",
+  "source": "fvm_ipld_kamt 0.4.6 (crates.io)",
+  "config": {
+    "bitWidth": 5,
+    "minDataDepth": 0,
+    "maxArrayWidth": 1,
+    "keyLength": 32
+  },
+  "ops": [
+    {
+      "op": "set",
+      "key": "0000000000000000000000000000000000000000000000000000000000000010",
+      "value": 1
+    },
+    {
+      "op": "set",
+      "key": "0000000000000000000000000000000000000000000000000000000000000011",
+      "value": 2
+    }
+  ],
+  "root": "bafy2bzacebtd35gkxxzvbzsbzsgbaq3obvwm24q6tknnuzsuvqt3ngixk7rrc",
+  "blocks": {
+    "bafy2bzacebtd35gkxxzvbzsbzsgbaq3obvwm24q6tknnuzsuvqt3ngixk7rrc": "82410181a1616c83d82a5827000171a0e40220e41f793c8237ae0f614ef97ad072813e343112ceeb9d8e2df2a3395a0ebe595118fa58200000000000000000000000000000000000000000000000000000000000000200",
+    "bafy2bzacedsb66j4qi324d3bj34xvudsqe7dimisz3vz3drn6krtswqoxzmvc": "82410382a161768182411001a161768182411102"
+  }
+}

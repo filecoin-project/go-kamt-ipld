@@ -1,0 +1,15 @@
+{
+  "name": "evm-empty",
+  "source": "fvm_ipld_kamt 0.4.6 (crates.io)",
+  "config": {
+    "bitWidth": 5,
+    "minDataDepth": 0,
+    "maxArrayWidth": 1,
+    "keyLength": 32
+  },
+  "ops": [],
+  "root": "bafy2bzaceamp42wmmgr2g2ymg46euououzfyck7szknvfacqscohrvaikwfay",
+  "blocks": {
+    "bafy2bzaceamp42wmmgr2g2ymg46euououzfyck7szknvfacqscohrvaikwfay": "824080"
+  }
+}

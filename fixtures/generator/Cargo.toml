@@ -1,0 +1,17 @@
+[package]
+name = "kamt-fixture-generator"
+description = "Generates cross-implementation test fixtures for go-kamt-ipld from the reference Rust fvm_ipld_kamt"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+fvm_ipld_kamt = "0.4.6"
+fvm_ipld_blockstore = "0.3.2"
+cid = { version = "0.11.1", features = ["serde"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+hex = "0.4"
+
+[workspace]
